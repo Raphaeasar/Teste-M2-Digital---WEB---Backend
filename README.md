@@ -2,15 +2,11 @@ Teste-M2-Digital---WEB---Backend
 
 Para rodar o projeto: 1° passo:
 
-É necessário instalar o pacote de dependências. Após descompactar os arquivos, no diretório raiz do projeto, digitar o seguinte comando no terminal:
-
--> npm install;
-
-2° passo:
+1° passo:
 
 Dentro da pasta, digitar o comando: -> mysql -u root -e "DROP DATABASE IF EXISTS m2;CREATE DATABASE m2";
 
-3° passo: Digitar o comando: -> php artisan migrate;
+2° passo: Digitar o comando: -> php artisan migrate;
 
 Agora é so rodar o projeto. Digitar o comando no terminal:
 
