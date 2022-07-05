@@ -1,82 +1,64 @@
-Teste-M2-Digital---WEB---Backend
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-Para rodar o projeto: 1° passo:
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-É necessário instalar o pacote de dependências. Após descompactar os arquivos, no diretório raiz do projeto, digitar o seguinte comando no terminal:
+## About Laravel
 
--> npm install;
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-2° passo:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Dentro da pasta, digitar o comando:
-->  mysql -u root -e "DROP DATABASE IF EXISTS m2;CREATE DATABASE m2";
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-3° passo:
-Digitar o comando:
--> php artisan migrate;
+## Learning Laravel
 
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-Agora é so rodar o projeto. Digitar o comando no terminal:
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
--> php artisan serve;
+## Laravel Sponsors
 
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-Usar o Insominia ou Postman para fazer teste das rotas.
+### Premium Partners
 
-Rota para criação de cidades: http://127.0.0.1:8000/api/cidades método POST,
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-Rota para listar cidades: http://127.0.0.1:8000/api/cidades método GET,
+## Contributing
 
-Rota para listar cidade pelo ID: http://127.0.0.1:8000/api/cidades/id método GET,
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-Rota para atualizar/alterar dados da cidade: http://127.0.0.1:8000/api/cidades método PUT,
+## Code of Conduct
 
-Rota para excluir cidades http://127.0.0.1:8000/api/cidades método DELETE,
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Security Vulnerabilities
 
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-Rota para criação de grupo: http://127.0.0.1:8000/api/grupo método POST,
+## License
 
-Rota para listar grupo: http://127.0.0.1:8000/api/grupo método GET,
-
-Rota para listar grupo pelo ID: http://127.0.0.1:8000/api/grupo/id método GET,
-
-Rota para atualizar/alterar dados da grupo: http://127.0.0.1:8000/api/grupo método PUT,
-
-Rota para excluir grupo http://127.0.0.1:8000/api/grupo método DELETE,
-
-
-
-Rota para criação de campanhas: http://127.0.0.1:8000/api/campanhas método POST,
-
-Rota para listar campanhas: http://127.0.0.1:8000/api/campanhas método GET,
-
-Rota para listar campanhas pelo ID: http://127.0.0.1:8000/api/campanhas/id método GET,
-
-Rota para atualizar/alterar dados da campanhas: http://127.0.0.1:8000/api/campanhas método PUT,
-
-Rota para excluir campanhas http://127.0.0.1:8000/api/campanhas método DELETE,
-
-
-
-Rota para criação de desconto: http://127.0.0.1:8000/api/desconto método POST,
-
-Rota para listar desconto: http://127.0.0.1:8000/api/desconto método GET,
-
-Rota para listar desconto pelo ID: http://127.0.0.1:8000/api/desconto/id método GET,
-
-Rota para atualizar/alterar dados da desconto: http://127.0.0.1:8000/api/desconto método PUT,
-
-Rota para excluir desconto http://127.0.0.1:8000/api/desconto método DELETE,
-
-
-
-Rota para criação de produto: http://127.0.0.1:8000/api/produto método POST,
-
-Rota para listar produto: http://127.0.0.1:8000/api/produto método GET,
-
-Rota para listar produto pelo ID: http://127.0.0.1:8000/api/produto/id método GET,
-
-Rota para atualizar/alterar dados da produto: http://127.0.0.1:8000/api/produto método PUT,
-
-Rota para excluir produto http://127.0.0.1:8000/api/produto método DELETE,
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
