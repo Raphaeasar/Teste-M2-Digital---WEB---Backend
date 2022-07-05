@@ -8,6 +8,14 @@ Para rodar o projeto: 1° passo:
 
 2° passo:
 
+Dentro da pasta, digitar o comando:
+->  mysql -u root -e "DROP DATABASE IF EXISTS m2;CREATE DATABASE m2";
+
+3° passo:
+Digitar o comando:
+-> php artisan migrate;
+
+
 Agora é so rodar o projeto. Digitar o comando no terminal:
 
 -> php artisan serve;
