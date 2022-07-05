@@ -39,7 +39,7 @@ Rota para excluir grupo http://127.0.0.1:8000/api/grupo método DELETE,
 
 
 
-Rota para criação de campanhas: http://127.0.0.1:8000/api/camapnhas método POST,
+Rota para criação de campanhas: http://127.0.0.1:8000/api/campanhas método POST,
 
 Rota para listar campanhas: http://127.0.0.1:8000/api/campanhas método GET,
 
