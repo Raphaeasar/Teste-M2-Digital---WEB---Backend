@@ -2,9 +2,16 @@ Teste-M2-Digital---WEB---Backend
 
 Para rodar o projeto: 1° passo:
 
-1° passo:
+1° Passo:
+Crie o projeto na pasta de sua preferência. Digite o comando:
 
-Dentro da pasta, digitar o comando: -> mysql -u root -e "DROP DATABASE IF EXISTS m2;CREATE DATABASE m2";
+-> composer create-project --prefer-dist laravel/laravel m2
+
+Após fazer isto, substitua todos os arquivos desta pasta para os arquivos que estão no zip deste projeto.
+
+2° passo:
+
+Dentro da pasta m2, digitar o comando: -> mysql -u root -e "DROP DATABASE IF EXISTS m2;CREATE DATABASE m2";
 
 2° passo: Digitar o comando: -> php artisan migrate;
 
